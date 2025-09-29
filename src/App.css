@@ -1,0 +1,147 @@
+body{
+  /* background: #ccc; */
+}
+main{
+  width: 100%;
+  height: auto;
+  /* background: #999; */
+}
+header{
+  width: 100%;
+  height: auto;
+  /* background: yellow; */
+}
+.mySwiper img{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.produtos{
+  width: 100%;
+  height: auto;
+  background: #cacaca;
+  float: left;
+  padding-top: 2vh;
+}
+.link-card{
+  text-decoration: none;
+  color: inherit;
+}
+.card{
+  width: 90%;
+  height: auto;
+  background: #fff;
+  margin-left: 5%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 0 5px #555;
+}
+.titulo-card{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: PURPLE; */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+}
+.desc{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: lightgray; */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 1vh;
+  color: #333;
+}
+.preco{
+  width: 40%;
+  height: 2.5vh;
+  line-height: 2.5vh;
+  float: left;
+  /* background: #82fff9; */
+  margin-left: 5%;
+  margin-top: 2vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+  color: #333;
+}
+.avaliacao{
+  width: 40%;
+  height: 2.5vh;
+  line-height: 2.5vh;
+  float: right;
+  /* background: #82fff9; */
+  margin-right: 5%;
+  margin-top: 2vh;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+  color: #333; 
+}
+.avaliacao span{
+  color: #F90;
+  font-size: 2vh;
+}
+.off{
+  padding: 1%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  z-index: 2;
+  background: #000;
+}
+.img-card{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.destaque{
+  width: 100%;
+  height: 50vh;
+  float: left;
+}
+.destaque img{
+  width: 100%;
+  height: auto;
+}
+
+footer{
+  width: 100%;
+  height: 20vh;
+  background: #00F;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2vh;
+}
+.logo-footer{
+  width: 130px;
+  height: auto;
+}
+.social-icons{
+  width: 100%;
+  height: 4vh;
+  float: left;
+  background: rgb(255, 255, 255);
+  margin-top: 2vh;
+
+}
+.social-icons img{
+  height: 4vh;
+  float: left;
+  margin-left: 14%;
+}
